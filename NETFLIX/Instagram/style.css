@@ -1,0 +1,130 @@
+*{
+   padding: 0;
+   margin: 0;
+   text-decoration: none;
+   box-sizing: border-box;
+   font-size: 14px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    justify-content: center;
+    
+}
+.container{
+    display: flex;
+    align-items:center;
+    justify-content: start;
+    width: auto;
+    height: auto;
+    
+
+}
+.phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+}
+.phone img{
+    height: 45rem;
+}
+.sideD{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
+    min-height: 34rem;
+}
+.telalogin{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+
+}
+.telalogin:nth-child(1){
+    min-height: 19rem;
+
+}
+.logoinstagram{
+    height: 5rem;
+}
+.profile{
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+overflow: hidden;
+}
+.profile img{
+    height: 6rem;
+}
+.logininstagram{
+    background-color: #0095f6;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+}
+.removerconta{
+    color: #0095f6;
+    margin-top: 1rem;
+    justify-content: center;
+}
+.not-acount{
+    color: rgb(160,160,160);
+}
+.link-blue{
+    color: #0095f6;
+}
+.getapp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+.download{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.appdownload{
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+    }
+    .appdownload:nth-child(1){
+        background-image: url(img/Apple.png);
+    }
+    .appdownload:nth-child(2){
+        background-image: url(img/google.png);
+    }
+
+ 
+    @media(max-width:550px){
+     .container{
+         width: 90%;
+     }
+     .phone{
+         display: none;
+     }
+     .telalogin{
+         width: 70%;
+     }
+
+ }

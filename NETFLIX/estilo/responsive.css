@@ -1,0 +1,28 @@
+@media screen and (max-width:620px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+    }
+    .botao{
+        margin-top: -10px;
+        width: 100%;
+        height: 100%;
+    }
+    .titulo{
+        width: 100%;
+        font-size: 25px;
+    }
+    #descricao{
+        width: 100%;
+       
+    }
+    #logo{
+        width: 40%;
+        margin-top: 30px;
+    }
+    #desc2{
+        width: 100%;
+    }
+}
+
